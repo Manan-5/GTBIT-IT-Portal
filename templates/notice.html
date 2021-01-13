@@ -1,0 +1,40 @@
+  
+{% extends "layout.html" %}
+{% block body %}
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('{{ url_for('static', filename='img/home.jpg') }}')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="page-heading">
+              <h1>Notice</h1>
+              <span class="subheading">Be aware of training programs,webinars and live sessions.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+          <a href="/" target="_blank"><h1>Training program for M/s ZS Associates</h1></a>
+          </div>
+          <p>A training program is being conducted by college. Interested students can apply.</p>
+        </div>
+      </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <a href="/" target="_blank"><h1>Webinar on Data Structure and Algorithms by PepCoding</h1></a>
+            </div>
+          <p>Know about important Data Structure and Algorithms. </p>
+          </div>
+        </div>
+
+   {% endblock %}
