@@ -6,7 +6,7 @@
         "prod_uri": "mysql://root:@localhost/gtbit",
         "blog_name":"GTBIT IT PORTAL",
         "gmail-user": "mgmanthan26@gmail.com",
-        "gmail-password":"iamthebestandrock",
+        "gmail-password":"",
         "no_of_posts": 3,
         "login_image":"login.svg",
         "admin_user":"manthan",
